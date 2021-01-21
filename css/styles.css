@@ -1,11 +1,11 @@
-/* p {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-color: pink;
-} */
 
 img {
     border-radius: 50%;
     border: 10px solid white;
+}
+
+#name{
+    color: #2eaf7d;
 }
 
 h1{
@@ -19,6 +19,7 @@ h2{
     color: #2eaf7d;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 #navbar{
@@ -40,6 +41,26 @@ h2{
 
 #career_list{
     font-family: 'Merriweather Sans', sans-serif;
+    color: #4d625e;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0 0 0 -30px;
+}
+
+#career_list li::before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 10px 0 0;
+}
+
+#skills_list{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #4d625e;
+}
+
+#studying{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #727c7a;
 }
 
 #title{
@@ -52,21 +73,21 @@ h2{
     border-radius: 50%;
 }
 
-ul {
-    list-style: inside;
+/* ul {
+    list-style: outside;
     padding-left: 0;
-}​
-
-li{
+}​ */
+/* 
+li {
     color: white;
-}
+} */
 
-#personal_profile{
-    padding: 30px 30px 30px 60px;
+#skills_summary{
+    padding: 50px 5% 50px 15%;
 }
 
 #career_summary{
-    padding: 14px 60px 30px 30px;
+    padding: 50px 15% 50px 5%;
 }
 
 #exp_and_ed{
@@ -76,7 +97,7 @@ li{
 }
 
 #exp_and_ed_grid{
-    margin: 0 5%;
+    margin: 0 15%;
 }
 
 #EdTitle{
