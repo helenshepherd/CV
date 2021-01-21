@@ -1,0 +1,103 @@
+/* p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-color: pink;
+} */
+
+img {
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+h1{
+    color: #2eaf7d;
+    margin-top: 20px;;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+
+h2{
+    color: #2eaf7d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+#navbar{
+    width: 100%;
+    padding: 0 20px;;
+    position: fixed;
+    font-size: 1.3rem;
+}
+
+#body_text{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #727c7a;
+}
+
+#career_text{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #727c7a;
+}
+
+#career_list{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#title{
+    text-align: center;
+    padding: 100px 0 50px;
+    background-color: #c1f6ed;
+}
+
+#favicon{
+    border-radius: 50%;
+}
+
+ul {
+    list-style: inside;
+    padding-left: 0;
+}​
+
+li{
+    color: white;
+}
+
+#personal_profile{
+    padding: 30px 30px 30px 60px;
+}
+
+#career_summary{
+    padding: 14px 60px 30px 30px;
+}
+
+#exp_and_ed{
+    background-color: #2eaf7d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#exp_and_ed_grid{
+    margin: 0 5%;
+}
+
+#EdTitle{
+    color: white;
+    font-weight: bolder;
+}
+
+#expTitle{
+    color: white;
+    font-weight: bolder;
+
+}
+
+#education{
+    color: white;
+}
+
+#qualifications{
+    color: white;
+}
+
+#languages{
+    color: white;
+}
