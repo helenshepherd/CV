@@ -1,27 +1,4 @@
 
-img {
-    border-radius: 50%;
-    border: 10px solid white;
-}
-
-#name{
-    color: #2eaf7d;
-}
-
-h1{
-    color: #2eaf7d;
-    margin-top: 20px;;
-    font-family: 'Sacramento', cursive;
-    font-size: 4rem;
-}
-
-h2{
-    color: #2eaf7d;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 #navbar{
     width: 100%;
     padding: 0 20px;;
@@ -29,96 +6,199 @@ h2{
     font-size: 1.3rem;
 }
 
-#body_text{
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #727c7a;
+#name{
+    color: #2eaf7d;
 }
 
-#career_text{
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #727c7a;
+#title{
+    text-align: center;
+    padding: 100px 0 100px;
+    background-color: #2eaf7d;
 }
 
-#career_list{
+#title h2{
+    color: #c1f6ed ;
+}
+
+img {
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+h1{
+    color:white;
+    margin-top: 20px;;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+h2{
+    color: #2eaf7d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding-bottom: 6px;
+}
+
+#skills_section{
+    background-color: white;
+    padding: 80px 7% 100px;
+}
+
+#skills_summary p{
     font-family: 'Merriweather Sans', sans-serif;
-    color: #4d625e;
+    color: #727c7a;
+    font-size:1.1rem;
+}
+
+#skills_section span{
+    font-weight: bold;
+}
+
+#skills_section ul{
+    padding-left: 12%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:1.1rem;
+    color: #727c7a;
     list-style-type: none;
-    list-style-position: outside;
-    margin: 0 0 0 -30px;
 }
 
-#career_list li::before {
+#skills_section li::before {
     content: "\f005";
     font-family: "Font Awesome 5 Free";
-    padding: 0 10px 0 0;
+    padding: 0 7px 0 0;
+    margin-left: -25px;
+    color: #2eaf7d;
 }
 
-#skills_list{
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #4d625e;
+#skills_section li{
+    padding-bottom: 5px;
 }
+
+
 
 #studying{
     font-family: 'Merriweather Sans', sans-serif;
     color: #727c7a;
 }
 
-#title{
-    text-align: center;
-    padding: 100px 0 50px;
+#career_section{
     background-color: #c1f6ed;
+    padding: 80px 7% 100px;
 }
 
-#favicon{
-    border-radius: 50%;
+#career_section h2{
+    /* color: #367aa2; */
+    color: #2eaf7d;
 }
 
-/* ul {
-    list-style: outside;
-    padding-left: 0;
-}​ */
-/* 
-li {
-    color: white;
-} */
-
-#skills_summary{
-    padding: 50px 5% 50px 15%;
+#career_section span{
+    font-weight: bold;
+}
+#career_summary p{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #727c7a;
+    font-size:1.1rem;
 }
 
-#career_summary{
-    padding: 50px 15% 50px 5%;
+#career_list{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #727c7a;
+    list-style-type: none;
+    font-size:1.1rem;
+}
+
+#career_list li::before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 7px 0 0;
+    margin-left: -25px;
+    color: #2eaf7d
+}
+
+#career_list li{
+    padding-bottom: 8px;
 }
 
 #exp_and_ed{
     background-color: #2eaf7d;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 80px 0 200px;
+}
+
+#exp_and_ed span{
+    font-weight: bold;
 }
 
 #exp_and_ed_grid{
-    margin: 0 15%;
+    margin: 0 7%;
 }
 
-#EdTitle{
-    color: white;
-    font-weight: bolder;
+#exp_and_ed h2{
+    color: #c1f6ed;
 }
 
-#expTitle{
+#exp_and_ed ul{
     color: white;
-    font-weight: bolder;
-
+    list-style-type: none;
+    font-size: 1.1rem;
 }
 
-#education{
+#exp_and_ed li::before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 7px 0 0;
+    margin-left: -25px;
     color: white;
 }
 
-#qualifications{
-    color: white;
+#exp_and_ed li{
+    padding-bottom: 8px;
 }
 
-#languages{
-    color: white;
+#contact_button{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.BUTTON_ISN {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #2eaf7d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 40px;
+    background-color:#c1f6ed;
+    /* -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000; */
+    /* text-shadow: 1px 1px 20px #000000;  */
+    border: solid #c1f6ed 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_ISN:hover {
+    background:  #2eaf7d;
+    border: solid  #2eaf7d 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;#
+    color: #FFFFFF;
+ }
+
+#contact_button{
+    padding: 60px 7%;
+    text-align: center; 
+    color: #2eaf7d; 
+    font-family: 'Montserrat', sans-serif;  
+}    
+ #contact_button p{
+    padding-top: 30px;
+    font-size: 0.8rem;
 }
