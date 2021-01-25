@@ -192,6 +192,22 @@ h2{
     color: #FFFFFF;
  }
 
+#interests{
+    padding: 60px 7%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:1.1rem;
+    color: #727c7a;
+}
+
+#interest_icons{
+    padding-top: 38px;
+    font-size: 3rem;
+}
+
+#interest_icons i + i{
+    padding-left: 0.5em;
+ } 
+
 #contact_button{
     padding: 60px 7%;
     text-align: center; 
