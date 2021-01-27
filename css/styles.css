@@ -18,18 +18,20 @@
 
 #title h2{
     color: #c1f6ed ;
+    font-size: 0.8rem;
 }
 
 img {
     border-radius: 50%;
-    border: 10px solid white;
+    border: 7px solid white;
+    width: 200px;
 }
 
 h1{
     color:white;
-    margin-top: 20px;;
+    margin-top: 20px;
     font-family: 'Sacramento', cursive;
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 500;
 }
 
@@ -75,8 +77,6 @@ h2{
 #skills_section li{
     padding-bottom: 5px;
 }
-
-
 
 #studying{
     font-family: 'Merriweather Sans', sans-serif;
@@ -200,8 +200,9 @@ h2{
 }
 
 #interest_icons{
-    padding-top: 38px;
-    font-size: 3rem;
+    padding-top: 10px;
+    font-size: 1.8rem;
+    font-align: center;
 }
 
 #interest_icons i + i{
@@ -209,7 +210,7 @@ h2{
  } 
 
 #contact_button{
-    padding: 60px 7%;
+    padding: 0 7%;
     text-align: center; 
     color: #2eaf7d; 
     font-family: 'Montserrat', sans-serif;  
@@ -218,3 +219,49 @@ h2{
     padding-top: 30px;
     font-size: 0.8rem;
 }
+
+/* md */
+@media (min-width: 700px) {
+    img {
+        width: 300px;
+        border: 10px solid white;
+    }
+    h1{
+        font-size: 4.5rem;
+
+    }
+    #title h2{
+        font-size: 1.4rem;
+    }
+    #interest_icons{
+        padding-top: 10px;
+        font-size: 2.2rem;
+        align: center;
+    }
+    #contact_button{
+        padding: 60px 7%;
+        text-align: center; 
+        color: #2eaf7d; 
+        font-family: 'Montserrat', sans-serif;  
+    }    
+    #contact_button p{
+        padding-top: 30px;
+        font-size: 0.8rem;
+    }
+} 
+/* lg */
+@media (min-width: 1200px) {
+    img {
+        width: 300px;
+    }
+    #contact_button{
+        padding: 60px 7%;
+        text-align: center; 
+        color: #2eaf7d; 
+        font-family: 'Montserrat', sans-serif;  
+    }    
+    #contact_button p{
+        padding-top: 30px;
+        font-size: 0.8rem;
+    }
+} 
